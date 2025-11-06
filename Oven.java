@@ -33,8 +33,7 @@ public void preheat(int temp) {
     
     if (temp > maxTemp) {
         currentTemp = maxTemp;
-    }
-    if (!(temp <= 0)) {
+    } else if (!(temp <= 0)) {
      currentTemp = temp;
     }
 }
