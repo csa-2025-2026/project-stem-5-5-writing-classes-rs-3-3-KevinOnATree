@@ -9,7 +9,7 @@ public Oven(int MaxTemp , int CurrentTemp) {
         maxTemp = MaxTemp;
     }
     currentTemp = CurrentTemp;
-    if (CurrentTemp > MaxTemp) {
+    if (CurrentTemp > maxTemp) {
         currentTemp = maxTemp;
     } else if (CurrentTemp < 0) {
         currentTemp = 0;

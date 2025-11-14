@@ -12,7 +12,7 @@ public class Person
     }
     public void print() {
         System.out.println("SNN: " + SSN);
-        System.out.println("\tName: " + firstname + lastname);
+        System.out.println("\tName: " + firstname + " " + lastname);
         System.out.println("\tAge: " + age);
     }
 }
